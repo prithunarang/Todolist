@@ -52,7 +52,7 @@ p {
   color: #00204a;
 }
 
-.item {
+form.item {
   text-align: center;
   margin-left: 20px;
 }
@@ -140,3 +140,4 @@ footer {
   left: 1650px;
   top: 2px;
 }
+
