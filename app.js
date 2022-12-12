@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"))
   
-mongoose.connect('mongodb+srv://Admin-PrithuNarang:Test123@todolistdb.lpahlry.mongodb.net/TodoListDB', {useNewUrlParser:true});
+mongoose.connect('mongodb+srv://Admin-PrithuNarang:Test123@todolistdb.lpahlry.mongodb.net', {useNewUrlParser:true});
 
 
 const itemsSchema = {
